@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Palash Bharati, an AI Software Engineer building production-grade agentic AI, RAG, and cloud-native systems."
+    />
+    <meta
+      name="keywords"
+      content="Palash Bharati, AI Software Engineer, LangGraph, MCP, RAG, LangChain, Python, Generative AI"
+    />
+    <meta name="author" content="Palash Bharati" />
+    <meta property="og:title" content="Palash Bharati — AI Software Engineer" />
+    <meta
+      property="og:description"
+      content="Production AI agents, retrieval systems, and cloud-native software."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0d0f11" />
+    <title>Palash Bharati — AI Software Engineer</title>
+    <link rel="stylesheet" href="styles.css?v=20261025-1" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2224%22 fill=%22%230d0f11%22/><text x=%2250%22 y=%2265%22 font-size=%2252%22 text-anchor=%22middle%22 fill=%22%23c8cdd3%22 font-family=%22Arial%22 font-weight=%22700%22>PB</text></svg>"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Palash Bharati",
+        "jobTitle": "AI Software Engineer",
+        "email": "mailto:mr.palashbharati@gmail.com",
+        "url": "https://github.com/Palash1912",
+        "sameAs": [
+          "https://www.linkedin.com/in/palash-bharati/",
+          "https://github.com/Palash1912"
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Delhi Technological University"
+        },
+        "knowsAbout": [
+          "Generative AI",
+          "LangGraph",
+          "Model Context Protocol",
+          "Retrieval-Augmented Generation",
+          "Python",
+          "Cloud Computing"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container nav-shell">
+        <a class="brand" href="#top" aria-label="Palash Bharati, home">
+          <span class="brand-mark">PB</span>
+          <span class="brand-name">Palash Bharati</span>
+        </a>
+
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          data-menu-button
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="site-navigation" class="site-nav" aria-label="Main navigation" data-menu>
+          <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#capabilities">Capabilities</a>
+          <a href="#hire">Resume</a>
+          <a class="nav-cta" href="#contact">Let's talk</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top">
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">
+              <span class="status-dot"></span>
+              AI software engineer · Pune, India
+            </p>
+            <h1>
+              hi, I’m <strong>Palash</strong>
+              <span class="hero-title-role">an AI software engineer</span>
+            </h1>
+            <p class="hero-summary">
+              I turn LLM prototypes into reliable products—building production-grade
+              agentic workflows, RAG systems, and cloud-native services with LangGraph,
+              MCP, and Python.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">
+                Explore my work
+                <svg aria-hidden="true" viewBox="0 0 20 20">
+                  <path d="M5 10h10M11 6l4 4-4 4" />
+                </svg>
+              </a>
+              <a
+                class="button button-secondary"
+                href="mailto:mr.palashbharati@gmail.com"
+              >
+                Email me
+              </a>
+            </div>
+            <div class="social-row" aria-label="Social links">
+              <a
+                href="https://www.linkedin.com/in/palash-bharati/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+                <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://github.com/Palash1912"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-panel" data-reveal>
+            <div class="terminal-bar">
+              <span></span><span></span><span></span>
+              <p>agent_graph.py</p>
+            </div>
+            <div class="agent-map" aria-label="Diagram of a multi-agent AI system">
+              <div class="map-node map-input">
+                <span>01</span>
+                <strong>User intent</strong>
+              </div>
+              <div class="map-connector connector-one"></div>
+              <div class="map-node map-router">
+                <span>02</span>
+                <strong>Semantic router</strong>
+                <small>LangGraph + pgvector</small>
+              </div>
+              <div class="map-connector connector-two"></div>
+              <div class="map-tools">
+                <div class="map-node">
+                  <span>03A</span>
+                  <strong>Specialist agent</strong>
+                </div>
+                <div class="map-node accent-node">
+                  <span>03B</span>
+                  <strong>MCP tools</strong>
+                </div>
+              </div>
+              <div class="map-pulse"></div>
+            </div>
+            <div class="panel-footer">
+              <span>Production pattern</span>
+              <span class="live-indicator"><i></i> Active</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container proof-strip" data-reveal>
+          <div>
+            <strong>3+ years</strong>
+            <span>Software engineering</span>
+          </div>
+          <div>
+            <strong>Production AI</strong>
+            <span>LangGraph · MCP · RAG</span>
+          </div>
+          <div>
+            <strong>Cloud native</strong>
+            <span>Kubernetes · Azure · GCP</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="work">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="section-kicker">Selected work</p>
+              <h2>Ideas built into working software.</h2>
+            </div>
+            <p>
+              A mix of LLM applications and full-stack products, selected for
+              practical utility and end-to-end ownership.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card project-featured" data-reveal>
+              <div class="project-visual profile-visual" aria-hidden="true">
+                <div class="search-shell">
+                  <span class="search-icon"></span>
+                  <span class="search-query">AI engineer, Pune</span>
+                  <span class="search-key">⌘ K</span>
+                </div>
+                <div class="profile-result">
+                  <div class="avatar">PB</div>
+                  <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <i>Matched</i>
+                </div>
+                <div class="summary-lines">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span>Featured AI project</span>
+                  <span>2025</span>
+                </div>
+                <h3>LinkedIn Profile Analyzer</h3>
+                <p>
+                  A ReAct agent that finds the right LinkedIn profile, retrieves
+                  profile data, and turns it into a concise professional summary
+                  using a locally hosted Llama 3.2 model.
+                </p>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>LangChain</li>
+                  <li>Llama 3.2</li>
+                  <li>Tavily</li>
+                  <li>Streamlit</li>
+                  <li>Pydantic</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Palash1912/linkedin-agent-bio"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View source <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div class="project-visual news-visual" aria-hidden="true">
+                <div class="message message-in">Did this headline really happen?</div>
+                <div class="analysis-card">
+                  <div class="analysis-top">
+                    <span>Credibility</span><strong>9.2</strong>
+                  </div>
+                  <div class="score-track"><span></span></div>
+                  <p>Verified across cited sources</p>
+                </div>
+                <div class="message message-out">Evidence checked. Here's the verdict.</div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span>Applied AI</span>
+                  <span>2025</span>
+                </div>
+                <h3>News Check AI</h3>
+                <p>
+                  A fact-checking API and WhatsApp bot that uses Perplexity's Sonar
+                  model to return a verdict, credibility score, reasoning, and
+                  supporting sources.
+                </p>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>FastAPI</li>
+                  <li>Sonar LLM</li>
+                  <li>Pydantic</li>
+                  <li>Twilio</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Palash1912/news-credibility-ai"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View source <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div class="project-visual race-visual" aria-hidden="true">
+                <div class="race-number">01</div>
+                <div class="race-copy">
+                  <span>Next race</span>
+                  <strong>Bahrain GP</strong>
+                  <small>Lights out · 18:00</small>
+                </div>
+                <svg class="race-line" viewBox="0 0 280 100">
+                  <path d="M4 82 C45 82, 55 12, 96 25 S145 92, 176 60 S225 18, 276 24" />
+                </svg>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span>Full-stack web</span>
+                  <span>Live</span>
+                </div>
+                <h3>F1 PitStop</h3>
+                <p>
+                  A Formula 1 companion for race schedules, results, drivers, and
+                  championship standings, delivered as a server-rendered Express
+                  application.
+                </p>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>EJS</li>
+                  <li>REST APIs</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://f1-pitstop.onrender.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live site <span aria-hidden="true">↗</span>
+                  </a>
+                  <a
+                    href="https://github.com/Palash1912/f1PitStop"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Source <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="more-projects" data-reveal>
+            <div>
+              <span class="more-projects-label">More on GitHub</span>
+              <h3>Explore the rest of my builds, experiments, and open-source work.</h3>
+            </div>
+            <a
+              class="button button-dark"
+              href="https://github.com/Palash1912?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Explore more projects
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="container experience-grid">
+          <div class="experience-intro" data-reveal>
+            <p class="section-kicker">Experience</p>
+            <h2>Shipping AI with software-engineering discipline.</h2>
+            <p>
+              My work sits where LLM orchestration, backend systems, and production
+              reliability meet.
+            </p>
+          </div>
+
+          <article class="role-card" data-reveal>
+            <div class="role-header">
+              <div>
+                <p class="role-company">Amdocs</p>
+                <h3>AI Software Engineer</h3>
+              </div>
+              <div class="role-meta">
+                <span>Jul 2023 — Present</span>
+                <span>Pune, India</span>
+              </div>
+            </div>
+
+            <div class="role-highlights">
+              <div>
+                <span class="highlight-number">01</span>
+                <p>
+                  Productionized a multi-agent customer-support system with
+                  <strong>LangGraph, semantic routing, MCP tool calling, and pgvector</strong>.
+                </p>
+              </div>
+              <div>
+                <span class="highlight-number">02</span>
+                <p>
+                  Built a production <strong>RAG pipeline</strong> spanning ingestion,
+                  chunking, embeddings, vector retrieval, and LLM context injection.
+                </p>
+              </div>
+              <div>
+                <span class="highlight-number">03</span>
+                <p>
+                  Improved reliability under sustained load and prepared
+                  containerized services for <strong>Kubernetes and GCP</strong>.
+                </p>
+              </div>
+              <div>
+                <span class="highlight-number">04</span>
+                <p>
+                  Automated platform workflows with Python, Helm, and secure
+                  cloud-native secret management through Azure Key Vault.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section capabilities-section" id="capabilities">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="section-kicker">Capabilities</p>
+              <h2>A production-minded AI toolkit.</h2>
+            </div>
+            <p>
+              Focused on the layers required to turn an AI prototype into a
+              dependable product.
+            </p>
+          </div>
+
+          <div class="capability-grid">
+            <article data-reveal>
+              <span class="capability-index">01</span>
+              <h3>Agentic AI</h3>
+              <p>
+                Multi-agent orchestration, stateful workflows, tool calling,
+                human-in-the-loop patterns, and structured outputs.
+              </p>
+              <div class="skill-line">LangGraph · LangChain · MCP · Llama</div>
+            </article>
+            <article data-reveal>
+              <span class="capability-index">02</span>
+              <h3>Retrieval systems</h3>
+              <p>
+                Document ingestion, chunking, embeddings, semantic search, vector
+                storage, and grounded response generation.
+              </p>
+              <div class="skill-line">RAG · pgvector · FAISS · Pinecone · SQL</div>
+            </article>
+            <article data-reveal>
+              <span class="capability-index">03</span>
+              <h3>Backend engineering</h3>
+              <p>
+                Typed APIs, microservices, distributed workflows, data contracts,
+                and resilient integration layers.
+              </p>
+              <div class="skill-line">Python · FastAPI · Pydantic · REST</div>
+            </article>
+            <article data-reveal>
+              <span class="capability-index">04</span>
+              <h3>Cloud delivery</h3>
+              <p>
+                Containerized deployments, CI/CD, configuration automation,
+                observability, and secrets management.
+              </p>
+              <div class="skill-line">Docker · Kubernetes · Azure · GCP · Helm</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education-section">
+        <div class="container education-card" data-reveal>
+          <div>
+            <p class="section-kicker">Education</p>
+            <h2>Delhi Technological University</h2>
+            <p>B.Tech · Electronics and Communication Engineering</p>
+          </div>
+          <div class="education-meta">
+            <strong>8.6</strong>
+            <span>CGPA · Class of 2023</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section hire-section" id="hire">
+        <div class="container contact-card" data-reveal>
+          <div>
+            <p class="section-kicker">Hire me</p>
+            <h2>Looking for an engineer who can take AI beyond the demo?</h2>
+            <p class="hire-copy">
+              I bring production experience across agentic AI, RAG, backend
+              engineering, and cloud delivery. See the complete story in my resume.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a
+              class="button button-light"
+              href="resume.html"
+            >
+              View my resume
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-outline-dark" href="mailto:mr.palashbharati@gmail.com">
+              Start a conversation
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section connect-section" id="contact">
+        <div class="container">
+          <div class="section-heading connect-heading" data-reveal>
+            <div>
+              <p class="section-kicker">Connect</p>
+              <h2>Find me online.</h2>
+            </div>
+            <p>
+              The fastest way to reach me is email. You can also follow my work
+              and connect professionally through GitHub and LinkedIn.
+            </p>
+          </div>
+
+          <div class="social-grid">
+            <a
+              class="social-card"
+              href="https://www.linkedin.com/in/palash-bharati/"
+              target="_blank"
+              rel="noreferrer"
+              data-reveal
+            >
+              <span class="social-monogram">in</span>
+              <div>
+                <span>LinkedIn</span>
+                <strong>palash-bharati</strong>
+              </div>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              class="social-card"
+              href="mailto:mr.palashbharati@gmail.com"
+              data-reveal
+            >
+              <span class="social-monogram">@</span>
+              <div>
+                <span>Email</span>
+                <strong>mr.palashbharati@gmail.com</strong>
+              </div>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              class="social-card"
+              href="https://github.com/Palash1912"
+              target="_blank"
+              rel="noreferrer"
+              data-reveal
+            >
+              <span class="social-monogram">GH</span>
+              <div>
+                <span>GitHub</span>
+                <strong>@Palash1912</strong>
+              </div>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <p>© <span data-year></span> Palash Bharati</p>
+        <p>Designed for useful conversations.</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js?v=20261025-2"></script>
+  </body>
+</html>
