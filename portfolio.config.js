@@ -15,7 +15,7 @@ window.PORTFOLIO_CONFIG = Object.freeze({
     provider: "umami",
     scriptUrl: "https://cloud.umami.is/script.js",
     // Paste the Website ID from Umami Cloud here to activate analytics.
-    websiteId: "",
+    websiteId: "3f1197d7-2003-4e13-a5db-a29c69b3af06",
     // Prevent local development visits from appearing in production analytics.
     domains: ["palash1912.github.io"],
   },
