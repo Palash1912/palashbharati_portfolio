@@ -4,6 +4,25 @@ const menu = document.querySelector("[data-menu]");
 const copyButton = document.querySelector("[data-copy-email]");
 const email = "mr.palashbharati@gmail.com";
 
+const analyticsConfig = window.PORTFOLIO_CONFIG?.analytics;
+
+if (
+  analyticsConfig?.provider === "umami" &&
+  analyticsConfig.websiteId?.trim() &&
+  analyticsConfig.scriptUrl?.trim()
+) {
+  const analyticsScript = document.createElement("script");
+  analyticsScript.defer = true;
+  analyticsScript.src = analyticsConfig.scriptUrl.trim();
+  analyticsScript.dataset.websiteId = analyticsConfig.websiteId.trim();
+
+  if (analyticsConfig.domains?.length) {
+    analyticsScript.dataset.domains = analyticsConfig.domains.join(",");
+  }
+
+  document.head.appendChild(analyticsScript);
+}
+
 const updateHeader = () => {
   header?.classList.toggle("is-scrolled", window.scrollY > 18);
 };

@@ -78,8 +78,10 @@
           <a href="#work">Work</a>
           <a href="#experience">Experience</a>
           <a href="#capabilities">Capabilities</a>
-          <a href="#hire">Resume</a>
-          <a class="nav-cta" href="#contact">Let's talk</a>
+          <a href="#hire" data-umami-event="Nav Resume">Resume</a>
+          <a class="nav-cta" href="#contact" data-umami-event="Nav Contact">
+            Let's talk
+          </a>
         </nav>
       </div>
     </header>
@@ -104,7 +106,11 @@
               MCP, and Python.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#work">
+              <a
+                class="button button-primary"
+                href="#work"
+                data-umami-event="Hero Explore Work"
+              >
                 Explore my work
                 <svg aria-hidden="true" viewBox="0 0 20 20">
                   <path d="M5 10h10M11 6l4 4-4 4" />
@@ -113,6 +119,7 @@
               <a
                 class="button button-secondary"
                 href="mailto:mr.palashbharati@gmail.com"
+                data-umami-event="Hero Email"
               >
                 Email me
               </a>
@@ -122,6 +129,7 @@
                 href="https://www.linkedin.com/in/palash-bharati/"
                 target="_blank"
                 rel="noreferrer"
+                data-umami-event="Hero LinkedIn"
               >
                 LinkedIn
                 <span aria-hidden="true">↗</span>
@@ -130,6 +138,7 @@
                 href="https://github.com/Palash1912"
                 target="_blank"
                 rel="noreferrer"
+                data-umami-event="Hero GitHub"
               >
                 GitHub
                 <span aria-hidden="true">↗</span>
@@ -246,6 +255,7 @@
                     href="https://github.com/Palash1912/linkedin-agent-bio"
                     target="_blank"
                     rel="noreferrer"
+                    data-umami-event="Project LinkedIn Analyzer Source"
                   >
                     View source <span aria-hidden="true">↗</span>
                   </a>
@@ -287,6 +297,7 @@
                     href="https://github.com/Palash1912/news-credibility-ai"
                     target="_blank"
                     rel="noreferrer"
+                    data-umami-event="Project News Check Source"
                   >
                     View source <span aria-hidden="true">↗</span>
                   </a>
@@ -328,6 +339,7 @@
                     href="https://f1-pitstop.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
+                    data-umami-event="Project F1 PitStop Live"
                   >
                     Live site <span aria-hidden="true">↗</span>
                   </a>
@@ -335,6 +347,7 @@
                     href="https://github.com/Palash1912/f1PitStop"
                     target="_blank"
                     rel="noreferrer"
+                    data-umami-event="Project F1 PitStop Source"
                   >
                     Source <span aria-hidden="true">↗</span>
                   </a>
@@ -353,6 +366,7 @@
               href="https://github.com/Palash1912?tab=repositories"
               target="_blank"
               rel="noreferrer"
+              data-umami-event="Explore More GitHub Projects"
             >
               Explore more projects
               <span aria-hidden="true">↗</span>
@@ -500,11 +514,16 @@
             <a
               class="button button-light"
               href="resume.html"
+              data-umami-event="View Resume"
             >
               View my resume
               <span aria-hidden="true">↗</span>
             </a>
-            <a class="button button-outline-dark" href="#contact">
+            <a
+              class="button button-outline-dark"
+              href="#contact"
+              data-umami-event="Start Conversation"
+            >
               Start a conversation
             </a>
           </div>
@@ -531,6 +550,7 @@
               target="_blank"
               rel="noreferrer"
               data-reveal
+              data-umami-event="Contact LinkedIn"
             >
               <span class="social-monogram">in</span>
               <div>
@@ -544,6 +564,7 @@
               class="social-card"
               href="mailto:mr.palashbharati@gmail.com"
               data-reveal
+              data-umami-event="Contact Email"
             >
               <span class="social-monogram">@</span>
               <div>
@@ -559,6 +580,7 @@
               target="_blank"
               rel="noreferrer"
               data-reveal
+              data-umami-event="Contact GitHub"
             >
               <span class="social-monogram">GH</span>
               <div>
@@ -580,6 +602,7 @@
       </div>
     </footer>
 
-    <script src="script.js?v=20261025-2"></script>
+    <script src="portfolio.config.js"></script>
+    <script src="script.js?v=20261029-1"></script>
   </body>
 </html>
